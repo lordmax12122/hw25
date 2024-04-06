@@ -1,0 +1,34 @@
+li {
+    list-style: none;
+}
+
+.box-list {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+
+.box-item {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.box-item:nth-child(3) {
+    background-color: rgb(122, 247, 122);
+    right: 0;
+    bottom: 0;
+}
+
+.box-item:nth-child(1) {
+    background-color: rgb(241, 129, 129);
+    top: 0;
+}
+
+.box-item:nth-child(2) {
+    background-color: rgb(121, 176, 248);
+    z-index: 1;
+    top: 100px;
+    right: 100px;
+}
